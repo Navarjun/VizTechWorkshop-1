@@ -1,0 +1,79 @@
+HEADING-1
+Kanchenjunga
+
+------
+
+HEADING-2
+3rd Tallest peak in the world
+
+------
+
+HEADING-3
+8,586 meters / 28,169 feet
+
+------
+
+PARAGRAPH
+Until 1852, Kangchenjunga was assumed to be the highest mountain in the world, but calculations based on various readings and measurements made by the Great Trigonometrical Survey of India in 1849 came to the conclusion that Mount Everest, known as Peak XV at the time, was the highest. Allowing for further verification of all calculations, it was officially announced in 1856 that Kangchenjunga is the third highest mountain in the world.
+
+------
+
+DIV
+Kangchenjunga was first climbed on 25 May 1955 by Joe Brown and George Band, who were part of the 1955 British Kangchenjunga expedition. They stopped short of the summit in accordance with the promise given to the Chogyal that the top of the mountain would remain intact. Every climber or climbing group that has reached the summit has followed this tradition.
+
+------
+
+CHOGYAL LINK
+https://en.wikipedia.org/wiki/Chogyal
+
+------
+
+IMAGE LINK
+./images/kanchenjunga.jpg
+
+------
+
+SAMPLE TEXT
+Every climber or climbing group that has reached the summit has followed this tradition.
+
+------
+
+BOX MODEL DEMO - STARTER CODE
+HTML
+<div id="box-model-container">
+    <div class="left">
+        <p>Every climber or climbing group that has reached the summit has followed this tradition.</p>
+    </div>
+    <div class="right">
+        <p>Every climber or climbing group that has reached the summit has followed this tradition.</p>
+    </div>
+</div>
+------
+CSS
+div#box-model-container > * {
+    width: 50%;
+    text-align: center;
+    height: 300px;
+    float: left;
+    margin-bottom: 100px;
+}
+div#box-model-container > .left {
+    background: #aac;
+}
+div#box-model-container > .right {
+    background: #dbd;
+}
+div#box-model-container > .left > p {
+    color: black;
+    background: steelblue;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+div#box-model-container > .right > p {
+    color: black;
+    background: steelblue;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}

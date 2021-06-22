@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    width: 800px;
+    margin: auto;
+    color: rgba(50, 90, 110, 0.8);
+}
+
+h1 {
+    color: rgba(50, 90, 110, 1);
+}
+
+img {
+    width: 100%;
+    border: 5px solid #333;
+}
+
+p {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+p.caption {
+    color: #333;
+    margin-top: 0px;
+    font-style: italic;
+}
+
+
+
+/**
+    BOX MODEL DEMOSTRATION
+*/
+div#box-model-container > * {
+    width: 50%;
+    text-align: center;
+    height: 300px;
+    float: left;
+    margin-bottom: 100px;
+}
+div#box-model-container > .left {
+    background: #aac;
+}
+div#box-model-container > .right {
+    background: #dbd;
+}
+div#box-model-container > .left > p {
+    color: black;
+    background: steelblue;
+    margin: 10px;
+    padding: 20px;
+    border: 5px solid black;
+}
+div#box-model-container > .right > p {
+    color: black;
+    background: steelblue;
+    margin: 30px;
+    padding: 5px;
+    border: 2px solid red;
+}
+
+/**
+    SVG
+*/
+rect {
+    fill: darkorange;
+    stroke: black;
+    stroke-width: 10;
+    cursor: pointer;
+    transition: 2s stroke-width;
+}
+rect:hover {
+    fill: red;
+}
+circle {
+    fill:rgba(50, 90, 110, 0.8);
+    transition: 1s all;
+    cursor: pointer;
+}

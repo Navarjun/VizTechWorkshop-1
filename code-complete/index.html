@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Viz Tech Workshop</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Kanchenjunga</h1>
+        <h2>3rd Tallest peak in the world</h2>
+        <h3>8,586 meters / 28,169 feet</h3>
+        <p>
+            Until 1852, Kangchenjunga was assumed to be the highest mountain in the world, but calculations based on various readings and measurements made by the Great Trigonometrical Survey of India in 1849 came to the conclusion that Mount Everest, known as Peak XV at the time, was the highest. Allowing for further verification of all calculations, it was officially announced in 1856 that Kangchenjunga is the third highest mountain in the world.
+        </p>
+
+        <div>
+            <img src="./images/kanchenjunga.jpg"></img>
+            <p class="caption">Kanchenjunga at sunrise</p>
+            <p>
+                Kangchenjunga was first climbed on 25 May 1955 by Joe Brown and George Band, who were part of the 1955 British Kangchenjunga expedition. They stopped short of the summit in accordance with the promise given to the 
+
+                <a href="https://en.wikipedia.org/wiki/Chogyal" target="_blank">
+                Chogyal
+                </a>
+
+                that the top of the mountain would remain intact. Every climber or climbing group that has reached the summit has followed this tradition.
+            </p>
+        </div>
+
+        <div id="box-model-container">
+            <div class="left">
+                <p>Every climber or climbing group that has reached the summit has followed this tradition.</p>
+            </div>
+            <div class="right">
+                <p>Every climber or climbing group that has reached the summit has followed this tradition.</p>
+            </div>
+        </div>
+
+        <h1>SVG</h1>
+        <svg width="800px" height="500px">
+            <rect x="50" y="50" width="50" height="50"></rect>
+            <rect x="150" y="50" width="50" height="50"></rect>
+            <circle id="cir" cx="500" cy="100" r="50"></circle>
+        </svg>
+
+
+        <script src="./script.js"></script>
+    </body>
+</html>
