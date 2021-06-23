@@ -50,27 +50,27 @@ HTML
 </div>
 ------
 CSS
-div#box-model-container > * {
+.box-model {
     width: 50%;
     text-align: center;
     height: 300px;
     float: left;
     margin-bottom: 100px;
 }
-div#box-model-container > .left {
+.left {
     background: #aac;
 }
-div#box-model-container > .right {
+.right {
     background: #dbd;
 }
-div#box-model-container > .left > p {
+.left > p {
     color: black;
     background: steelblue;
     margin: 0px;
     padding: 0px;
     border: 0px;
 }
-div#box-model-container > .right > p {
+.right > p {
     color: black;
     background: steelblue;
     margin: 0px;
